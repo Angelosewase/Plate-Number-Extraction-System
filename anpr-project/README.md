@@ -18,12 +18,11 @@ After OCR, the system:
 - `src/detect.py` - detect a plate region (returns 4 corner points)
 - `src/align.py` - perspective correction using 4 corner points
 - `src/ocr.py` - preprocess + Tesseract OCR
-- `src/validate.py` - normalize + validate plate format
 - `src/main.py` - camera loop + confirmation + CSV output
 
 ## Installation
 
-1. Install Python 3.
+1. Install Python 3.X.X
 2. Install dependencies:
 
 ```bash
@@ -84,6 +83,7 @@ Test on multiple vehicles to demonstrate:
 - final confirmed plate (saved to CSV)
 
 ## Screenshots
+
 
 Run the program and wait until a plate is confirmed. The project writes:
 
