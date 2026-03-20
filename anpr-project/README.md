@@ -92,10 +92,3 @@ Run the program and wait until a plate is confirmed. The project writes:
 - `screenshots/<run-folder>/ocr.png` - OCR visualization (OCR stage frame)
 - `screenshots/<run-folder>/ocr_threshold.png` - thresholded plate image used by Tesseract
 
-Example output:
-
-![Detection](screenshots/auto_20260320_172716/detection.png)
-![Alignment](screenshots/auto_20260320_172716/alignment.png)
-![OCR](screenshots/auto_20260320_172716/ocr.png)
-![OCR Threshold](screenshots/auto_20260320_172716/ocr_threshold.png)
-
